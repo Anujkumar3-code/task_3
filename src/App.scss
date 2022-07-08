@@ -1,0 +1,37 @@
+
+$headingColor:rgb(123, 56, 56);
+$aboutColor: rgb(153, 97, 196);
+$contactColor: rgb(98, 59, 189);
+$paraColor : rgb(56, 33, 90);
+$fontFamily :  Helvetica, sans-serif;
+body {
+    font-family:$fontFamily;
+    font-size: 18px;
+  }
+.home{
+    h1{color: $headingColor;
+    text-align: center;
+    }
+    .para{
+        color:$paraColor ;
+    }
+}
+.about{
+    h1{color: $aboutColor;
+    text-align: center;
+    }
+    .para{
+        color:$paraColor;
+    }
+}
+.contact{
+    h1{color: $contactColor;
+    text-align: center;
+    }
+    .para{
+        color:$paraColor;
+    }
+}
+.para{
+    padding: 10vh;
+}
